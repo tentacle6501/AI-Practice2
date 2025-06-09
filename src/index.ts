@@ -1,6 +1,6 @@
 import express, { Express, Request, Response } from 'express';
-import userRoutes from './api/users/user.routes';
-import authRoutes from './api/auth/auth.routes';
+import userRoutes from './api/users/user.routes.js';
+import authRoutes from './api/auth/auth.routes.js';
 
 const app: Express = express();
 const port = process.env.PORT || 3000;

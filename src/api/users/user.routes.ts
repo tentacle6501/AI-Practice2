@@ -1,7 +1,7 @@
 import { Router } from 'express';
-import { asyncHandler, validate } from '../shared/asyncHandler';
-import * as userController from './user.controller';
-import { createUserSchema, updateUserSchema } from './user.validation';
+import { asyncHandler, validate } from '../shared/asyncHandler.js';
+import * as userController from './user.controller.js';
+import { createUserSchema, updateUserSchema } from './user.validation.js';
 
 const router = Router();
 

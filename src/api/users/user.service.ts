@@ -1,5 +1,5 @@
 import { PrismaClient } from '@prisma/client';
-import { UserCreateInput, UserUpdateInput } from './user.validation';
+import { UserCreateInput, UserUpdateInput } from './user.validation.js';
 import bcrypt from 'bcrypt';
 
 const prisma = new PrismaClient();
